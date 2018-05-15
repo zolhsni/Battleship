@@ -13,7 +13,7 @@ while (isSunk == false){
         alert("Please enter a valid number!!")
     } else{
         alert(MISS!);
-        guesses = guess + 1;
+        guesses = guesses + 1;
 
         if (guess == location1 || guess == location2 || guess == location3 ){
             alert("HIT!");
